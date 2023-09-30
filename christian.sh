@@ -33,6 +33,7 @@ echo "blacklist firewire-core" >> /etc/modprobe.d/firewire.conf
 # Desabilitando modulos thunderbolt
 echo "blacklist thunderbolt" >> /etc/modprobe.d/thunderbolt.conf
 
+#Fazendo as config do fai2ban para banimento de ip apos falha
 
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 
